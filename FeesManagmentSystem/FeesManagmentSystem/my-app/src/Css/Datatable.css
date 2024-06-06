@@ -1,0 +1,82 @@
+Datatable.css
+.container1 {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 1000px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.button {
+  margin-right: 5px;
+}
+
+.button-info {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.button-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+.modal-header {
+  background-color: #007bff;
+  color: white;
+}
+
+.modal-footer .btn-primary {
+  background-color: #007bff;
+}
+
+.modal-footer .btn-secondary {
+  background-color: #6c757d;
+}
+
+.text-danger {
+  color: red;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-group .form-control {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+}
+
+.modal-body p {
+  margin-bottom: 10px;
+}

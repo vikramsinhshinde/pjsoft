@@ -1,0 +1,54 @@
+/* Newform.css */
+
+/* General styling for the form container */
+.container {
+  max-width: 900px;
+  margin: auto ;
+  padding: 20px;
+}
+
+/* Styling for the card containing the form */
+.card {
+  padding: 20px;
+  margin: 20px 0;
+}
+
+/* Centering the form title */
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Setting spacing for form fields */
+.field {
+  margin-bottom: 16px;
+}
+
+/* Ensuring the submit button spans the full width */
+.submit-button {
+  margin-top: 16px;
+  width: 50%;
+}
+
+/* Styling for the print receipt button */
+.print-button {
+  width: 50%;
+  margin-top: 16px;
+}
+
+/* Hiding the print content */
+.print-content {
+  display: none;
+}
+
+/* Responsive grid styling */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+/* Aligning form fields within the grid */
+.grid-item {
+  width: 100%;
+}
